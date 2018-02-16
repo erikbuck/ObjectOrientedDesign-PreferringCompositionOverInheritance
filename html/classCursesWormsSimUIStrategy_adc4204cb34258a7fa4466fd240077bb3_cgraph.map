@@ -1,0 +1,6 @@
+<map id="CursesWormsSimUIStrategy::setSlowness" name="CursesWormsSimUIStrategy::setSlowness">
+<area shape="rect" id="node2" href="$classCursesWormsSimUIStrategy.html#a87d71f8fd8da2fac04b45fddba7bd6b3" title="Call this function to request user interface specific confirmation that the simulation should exit (q..." alt="" coords="245,40,436,79"/>
+<area shape="rect" id="node3" href="$classCursesWormsSimUIStrategy.html#abccd8272a3096b0a2ad9b7d473d5d487" title="Returns one available character of user input. " alt="" coords="484,11,676,49"/>
+<area shape="rect" id="node5" href="$classCursesWormsSimUIStrategy.html#ade51b8036b48903f6ed518b42213fb7a" title="Draw specified string of characters on row y on the display. " alt="" coords="724,68,915,107"/>
+<area shape="rect" id="node4" href="$classCursesWormsSimUIStrategy.html#ad7309b0b4a7b9d802a82793781d66a4f" title="Returns the total number of delayQuantum intervals before each call to processUserInput() returns..." alt="" coords="724,5,915,44"/>
+</map>

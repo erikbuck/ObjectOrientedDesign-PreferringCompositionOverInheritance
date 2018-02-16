@@ -1,0 +1,12 @@
+<map id="Worm::areAllSegmentsContiguous" name="Worm::areAllSegmentsContiguous">
+<area shape="rect" id="node2" href="$classWorm.html#a37ab25cceafd9420d649a42422130d38" title="Constructs a worm instance with enough segments to store one each character in saying in a different ..." alt="" coords="579,5,679,31"/>
+<area shape="rect" id="node8" href="$classWorm.html#a5f002460a2a6509ced236a3512b3950e" title="Call to execute one simulation step of the worm&#39;s life. " alt="" coords="587,68,671,93"/>
+<area shape="rect" id="node9" href="$classWorm.html#a11ce882c6a211c025ef7c4f04ee6b13a" title="Template Method: called when a worm has been sliced. " alt="" coords="525,117,733,156"/>
+<area shape="rect" id="node10" href="$classWorm.html#ac67cf9ee5c70ca84d67b2de01b5cff8a" title="Template Method: called when worm has been eaten As a side effect, this function decrements the count..." alt="" coords="789,161,929,187"/>
+<area shape="rect" id="node11" href="$classWorm.html#ad0d55e4c70f84a03d97a192db6efd72a" title="Changes the worm&#39;s status based on the size of the worm and the amount of food in the worm&#39;s stomach..." alt="" coords="279,92,477,131"/>
+<area shape="rect" id="node3" href="$classWormsSim.html#a926a79421a420e4da5d8b156ca9602a7" title="If an existing slot in is available and victimSegementNumber is 1 and &lt; the number of segments in vic..." alt="" coords="781,96,937,121"/>
+<area shape="rect" id="node4" href="$classWormsSim.html#a8a5f16496242faa2be8012611428cf91" title="Each time this function is called, the simulation restarts from initial conditions with a pseudo rand..." alt="" coords="985,129,1160,155"/>
+<area shape="rect" id="node5" href="$classWormsSim.html#ad2b69a4b0f79879b4f18a22e8aa2cf5e" title="Returns the maximum number of columns of squares in a &quot;board&quot;. " alt="" coords="1208,129,1415,155"/>
+<area shape="rect" id="node6" href="$classWormsSim.html#aa7ba29a93b86b72f49aa8a147c3c6123" title="Constructs a WormsSim instance encapsulating a board with width columns and height rows of squares..." alt="" coords="1463,129,1622,155"/>
+<area shape="rect" id="node7" href="$classWormsSim.html#aff98fb3bc5288f412ecadbad40713bc7" title="This function creates an instance of WormsSim with the specified board width and height. " alt="" coords="1670,129,1859,155"/>
+</map>

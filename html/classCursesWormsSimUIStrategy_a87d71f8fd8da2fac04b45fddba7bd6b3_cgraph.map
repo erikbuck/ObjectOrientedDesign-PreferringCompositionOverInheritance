@@ -1,0 +1,5 @@
+<map id="CursesWormsSimUIStrategy::confirmExit" name="CursesWormsSimUIStrategy::confirmExit">
+<area shape="rect" id="node2" href="$classCursesWormsSimUIStrategy.html#abccd8272a3096b0a2ad9b7d473d5d487" title="Returns one available character of user input. " alt="" coords="245,11,436,49"/>
+<area shape="rect" id="node4" href="$classCursesWormsSimUIStrategy.html#ade51b8036b48903f6ed518b42213fb7a" title="Draw specified string of characters on row y on the display. " alt="" coords="484,68,676,107"/>
+<area shape="rect" id="node3" href="$classCursesWormsSimUIStrategy.html#ad7309b0b4a7b9d802a82793781d66a4f" title="Returns the total number of delayQuantum intervals before each call to processUserInput() returns..." alt="" coords="484,5,676,44"/>
+</map>

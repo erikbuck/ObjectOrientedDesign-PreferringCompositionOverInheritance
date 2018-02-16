@@ -1,0 +1,4 @@
+<map id="CursesWormsSimUIStrategy::getOneChar" name="CursesWormsSimUIStrategy::getOneChar">
+<area shape="rect" id="node2" href="$classCursesWormsSimUIStrategy.html#a87d71f8fd8da2fac04b45fddba7bd6b3" title="Call this function to request user interface specific confirmation that the simulation should exit (q..." alt="" coords="245,5,436,44"/>
+<area shape="rect" id="node3" href="$classCursesWormsSimUIStrategy.html#adc4204cb34258a7fa4466fd240077bb3" title="Sets the total number of delayQuantum intervals before each call to processUserInput() returns..." alt="" coords="484,5,676,44"/>
+</map>

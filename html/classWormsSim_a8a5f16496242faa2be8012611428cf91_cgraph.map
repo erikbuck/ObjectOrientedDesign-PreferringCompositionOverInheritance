@@ -1,0 +1,21 @@
+<map id="WormsSim::runSimulation" name="WormsSim::runSimulation">
+<area shape="rect" id="node2" href="$classWormsSim.html#a3605455ccc2cc3888b5f3fe96a7a89fe" title="Use this function to find an index where a non&#45;living Worm can be replaced by a new living worm..." alt="" coords="514,105,652,131"/>
+<area shape="rect" id="node3" href="$classWorm.html#a618c7cdb90192fe590a4247ddfbfe6d5" title="Returns the neutritional food value of the worm. " alt="" coords="257,372,403,397"/>
+<area shape="rect" id="node4" href="$classWormsSim.html#aa66627837764f1544c172839411e8ba0" title="Utility function to return a pseudo random natural number in the range 0..(x&#45;1). " alt="" coords="752,421,949,447"/>
+<area shape="rect" id="node5" href="$classWormsSim.html#a0622fbe0e620ee04822ff2ffc5bf7193" title="Finds a worm other than in_worm that has a segment with index &gt; 0 at the same position as in_worm&#39;s h..." alt="" coords="238,421,422,447"/>
+<area shape="rect" id="node6" href="$classWorm.html#ac67cf9ee5c70ca84d67b2de01b5cff8a" title="Template Method: called when worm has been eaten As a side effect, this function decrements the count..." alt="" coords="781,5,920,31"/>
+<area shape="rect" id="node9" href="$classWormsSim.html#af1d569c73e2f1a8b745452f2e2ef1675" title="This function executes one simulation step. " alt="" coords="229,471,431,496"/>
+<area shape="rect" id="node14" href="$classWormsSim.html#a926a79421a420e4da5d8b156ca9602a7" title="If an existing slot in is available and victimSegementNumber is 1 and &lt; the number of segments in vic..." alt="" coords="252,213,408,239"/>
+<area shape="rect" id="node20" href="$classWormsSim.html#a252910cd240e31339ae7bff45ac19dd2" title="Places a carrot in every passive board square. " alt="" coords="238,520,422,545"/>
+<area shape="rect" id="node7" href="$classWorm.html#a2db602e298adc5d12e17e53f0b46575d" title="This function should only be used for pre and post condition assertion checking. " alt="" coords="1015,105,1240,131"/>
+<area shape="rect" id="node8" href="$classWormsSim.html#a5346ce1e05a7b5b77e6204dc3c8a0ac7" title="This function should only be used for pre and post condition assertion checking. " alt="" coords="1032,156,1223,181"/>
+<area shape="rect" id="node10" href="$classWormsSim.html#aeb9cfc8637af9373c514baba5a2ee6a5" title="Set the attrs and characters in the simulation based on the positions of worms and carrots in the sim..." alt="" coords="484,432,681,471"/>
+<area shape="rect" id="node12" href="$classAbstractWormsSimUIStrategy.html#a4a169ed8b730d8e17644e07cfacebe80" title="Template Method design pattern: Subclasses must override this method to provide user a interface spec..." alt="" coords="484,495,682,533"/>
+<area shape="rect" id="node13" href="$classAbstractWormsSimUIStrategy.html#a5a46c4872248e8858e278459991edca3" title="Template Method design pattern: Subclasses must override this method to provide user a interface spec..." alt="" coords="484,557,682,596"/>
+<area shape="rect" id="node11" href="$classWormsSim.html#a28a7c11a6c25cd924c9f222f6f3e058d" title="This function should be called any time a Worm in m_worms changes state e.g the worm has moved..." alt="" coords="735,471,967,496"/>
+<area shape="rect" id="node15" href="$classWorm.html#a37ab25cceafd9420d649a42422130d38" title="Constructs a worm instance with enough segments to store one each character in saying in a different ..." alt="" coords="801,55,900,80"/>
+<area shape="rect" id="node16" href="$classWorm.html#a11ce882c6a211c025ef7c4f04ee6b13a" title="Template Method: called when a worm has been sliced. " alt="" coords="479,207,687,245"/>
+<area shape="rect" id="node18" href="$classWorm.html#a5f002460a2a6509ced236a3512b3950e" title="Call to execute one simulation step of the worm&#39;s life. " alt="" coords="541,271,625,296"/>
+<area shape="rect" id="node17" href="$classWorm.html#ad0d55e4c70f84a03d97a192db6efd72a" title="Changes the worm&#39;s status based on the size of the worm and the amount of food in the worm&#39;s stomach..." alt="" coords="751,207,950,245"/>
+<area shape="rect" id="node19" href="$classWorm.html#ac3c8807fc5a264881fff18911a1a7b95" title="A Worm is hungry if its stomach foof content value at least 25% less that the worm&#39;s stomach capacity..." alt="" coords="792,372,909,397"/>
+</map>

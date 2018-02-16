@@ -1,0 +1,8 @@
+<map id="WormsSim::updateBoardWithWorm" name="WormsSim::updateBoardWithWorm">
+<area shape="rect" id="node2" href="$classWormsSim.html#aeb9cfc8637af9373c514baba5a2ee6a5" title="Set the attrs and characters in the simulation based on the positions of worms and carrots in the sim..." alt="" coords="285,5,482,44"/>
+<area shape="rect" id="node3" href="$classWormsSim.html#af1d569c73e2f1a8b745452f2e2ef1675" title="This function executes one simulation step. " alt="" coords="530,12,733,37"/>
+<area shape="rect" id="node4" href="$classWormsSim.html#a8a5f16496242faa2be8012611428cf91" title="Each time this function is called, the simulation restarts from initial conditions with a pseudo rand..." alt="" coords="781,12,956,37"/>
+<area shape="rect" id="node5" href="$classWormsSim.html#ad2b69a4b0f79879b4f18a22e8aa2cf5e" title="Returns the maximum number of columns of squares in a &quot;board&quot;. " alt="" coords="1004,12,1211,37"/>
+<area shape="rect" id="node6" href="$classWormsSim.html#aa7ba29a93b86b72f49aa8a147c3c6123" title="Constructs a WormsSim instance encapsulating a board with width columns and height rows of squares..." alt="" coords="1259,12,1418,37"/>
+<area shape="rect" id="node7" href="$classWormsSim.html#aff98fb3bc5288f412ecadbad40713bc7" title="This function creates an instance of WormsSim with the specified board width and height. " alt="" coords="1466,12,1655,37"/>
+</map>

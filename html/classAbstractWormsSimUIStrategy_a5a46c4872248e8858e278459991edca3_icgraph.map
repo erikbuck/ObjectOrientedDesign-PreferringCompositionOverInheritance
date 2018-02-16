@@ -1,0 +1,7 @@
+<map id="AbstractWormsSimUIStrategy::processUserInput" name="AbstractWormsSimUIStrategy::processUserInput">
+<area shape="rect" id="node2" href="$classWormsSim.html#af1d569c73e2f1a8b745452f2e2ef1675" title="This function executes one simulation step. " alt="" coords="252,12,454,37"/>
+<area shape="rect" id="node3" href="$classWormsSim.html#a8a5f16496242faa2be8012611428cf91" title="Each time this function is called, the simulation restarts from initial conditions with a pseudo rand..." alt="" coords="502,12,677,37"/>
+<area shape="rect" id="node4" href="$classWormsSim.html#ad2b69a4b0f79879b4f18a22e8aa2cf5e" title="Returns the maximum number of columns of squares in a &quot;board&quot;. " alt="" coords="725,12,932,37"/>
+<area shape="rect" id="node5" href="$classWormsSim.html#aa7ba29a93b86b72f49aa8a147c3c6123" title="Constructs a WormsSim instance encapsulating a board with width columns and height rows of squares..." alt="" coords="980,12,1139,37"/>
+<area shape="rect" id="node6" href="$classWormsSim.html#aff98fb3bc5288f412ecadbad40713bc7" title="This function creates an instance of WormsSim with the specified board width and height. " alt="" coords="1187,12,1376,37"/>
+</map>

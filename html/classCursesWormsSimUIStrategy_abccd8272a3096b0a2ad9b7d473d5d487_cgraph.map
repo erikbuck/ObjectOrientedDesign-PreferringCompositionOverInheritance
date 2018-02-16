@@ -1,0 +1,4 @@
+<map id="CursesWormsSimUIStrategy::getOneChar" name="CursesWormsSimUIStrategy::getOneChar">
+<area shape="rect" id="node2" href="$classCursesWormsSimUIStrategy.html#ad7309b0b4a7b9d802a82793781d66a4f" title="Returns the total number of delayQuantum intervals before each call to processUserInput() returns..." alt="" coords="245,5,436,44"/>
+<area shape="rect" id="node3" href="$classCursesWormsSimUIStrategy.html#ade51b8036b48903f6ed518b42213fb7a" title="Draw specified string of characters on row y on the display. " alt="" coords="245,68,436,107"/>
+</map>
