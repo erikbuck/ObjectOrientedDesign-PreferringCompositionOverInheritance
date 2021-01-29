@@ -12,68 +12,61 @@
          <Node>
           <Name>Abstract</Name>
           <Path>index.html</Path>
-          <Anchor>a1</Anchor>
-          <Subnodes>
-           <Node>
-            <Name>Contents</Name>
-            <Path>index.html</Path>
-            <Anchor>autotoc_md0</Anchor>
-           </Node>
-          </Subnodes>
+          <Anchor>autotoc_md0</Anchor>
          </Node>
          <Node>
           <Name>Overview of the &quot;Worms&quot; Simulation</Name>
           <Path>index.html</Path>
-          <Anchor>h1</Anchor>
+          <Anchor>autotoc_md1</Anchor>
           <Subnodes>
            <Node>
             <Name>Board</Name>
             <Path>index.html</Path>
-            <Anchor>h2</Anchor>
+            <Anchor>autotoc_md2</Anchor>
            </Node>
            <Node>
             <Name>Worms</Name>
             <Path>index.html</Path>
-            <Anchor>h3</Anchor>
+            <Anchor>autotoc_md3</Anchor>
            </Node>
           </Subnodes>
          </Node>
          <Node>
           <Name>Examination of Design Alternatives</Name>
           <Path>index.html</Path>
-          <Anchor>h4</Anchor>
+          <Anchor>autotoc_md4</Anchor>
           <Subnodes>
            <Node>
             <Name>Inheritance Based Design 1</Name>
             <Path>index.html</Path>
-            <Anchor>h5</Anchor>
+            <Anchor>autotoc_md5</Anchor>
            </Node>
            <Node>
             <Name>Critique of Design 1:</Name>
             <Path>index.html</Path>
-            <Anchor>h6</Anchor>
+            <Anchor>autotoc_md6</Anchor>
            </Node>
            <Node>
             <Name>Composition Based Design 2</Name>
             <Path>index.html</Path>
-            <Anchor>h7</Anchor>
+            <Anchor>autotoc_md7</Anchor>
            </Node>
            <Node>
             <Name>Critique of Design 2:</Name>
             <Path>index.html</Path>
-            <Anchor>h8</Anchor>
+            <Anchor>autotoc_md8</Anchor>
            </Node>
            <Node>
             <Name>Appropriate Use of Inheritance in Design 3</Name>
             <Path>index.html</Path>
-            <Anchor>h9</Anchor>
+            <Anchor>autotoc_md9</Anchor>
            </Node>
           </Subnodes>
          </Node>
          <Node>
           <Name>Conclusion</Name>
           <Path>index.html</Path>
-          <Anchor>h10</Anchor>
+          <Anchor>autotoc_md10</Anchor>
          </Node>
         </Subnodes>
        </Node>

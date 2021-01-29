@@ -26,21 +26,19 @@ var NAVTREE =
 [
   [ "Worms", "index.html", [
     [ "Object Oriented Design - Preferring Composition Over Inheritance", "index.html", [
-      [ "Abstract", "index.html#a1", [
-        [ "Contents", "index.html#autotoc_md0", null ]
+      [ "Abstract", "index.html#autotoc_md0", null ],
+      [ "Overview of the \"Worms\" Simulation", "index.html#autotoc_md1", [
+        [ "Board", "index.html#autotoc_md2", null ],
+        [ "Worms", "index.html#autotoc_md3", null ]
       ] ],
-      [ "Overview of the \"Worms\" Simulation", "index.html#h1", [
-        [ "Board", "index.html#h2", null ],
-        [ "Worms", "index.html#h3", null ]
+      [ "Examination of Design Alternatives", "index.html#autotoc_md4", [
+        [ "Inheritance Based Design 1", "index.html#autotoc_md5", null ],
+        [ "Critique of Design 1:", "index.html#autotoc_md6", null ],
+        [ "Composition Based Design 2", "index.html#autotoc_md7", null ],
+        [ "Critique of Design 2:", "index.html#autotoc_md8", null ],
+        [ "Appropriate Use of Inheritance in Design 3", "index.html#autotoc_md9", null ]
       ] ],
-      [ "Examination of Design Alternatives", "index.html#h4", [
-        [ "Inheritance Based Design 1", "index.html#h5", null ],
-        [ "Critique of Design 1:", "index.html#h6", null ],
-        [ "Composition Based Design 2", "index.html#h7", null ],
-        [ "Critique of Design 2:", "index.html#h8", null ],
-        [ "Appropriate Use of Inheritance in Design 3", "index.html#h9", null ]
-      ] ],
-      [ "Conclusion", "index.html#h10", null ]
+      [ "Conclusion", "index.html#autotoc_md10", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

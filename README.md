@@ -1,6 +1,6 @@
 # Object Oriented Design - Preferring Composition Over Inheritance {#mainpage}
 
-## Abstract {#a1}
+## Abstract
 
 A goal of object-oriented programming is to maximize programmer
 productivity by reducing lifetime software development and maintenance
@@ -33,27 +33,13 @@ simulation program is used as a case study. A brief overview of the
 "Worms" simulation is provided as a basis and case study for application
 of composition in preference to object oriented inheritance.
 
-### Contents
-
-- [Abstract](#a1)
-- [Overview of the "Worms" Simulation](#h1)
-- [Board](#h2)
-- [Worms](#h3)
-- [Examination of Design Alternatives](#h4)
-- [Inheritance Based Design 1](#h5)
-- [Critique of Design 1](#h6)
-- [Composition Based Design 2](#h7)
-- [Critique of Design 2](#h8)
-- [Appropriate Use of Inheritance in Design 3](#h9)
-- [Conclusion](#h10)
-
-## Overview of the "Worms" Simulation {#h1}
+## Overview of the "Worms" Simulation
 
 The Worms program simulates worms living their lives in a 2D plane
 called a board. See Figure 1: Examples of Worms On a Game
 Board.![](../media/image001.png)
 
-### Board  {#h2}
+### Board
 
 The board is represented by a matrix of squares. Positions within the
 board are denoted by the natural number coordinates of each square in
@@ -63,7 +49,7 @@ segments of alive worms. See the Worms Section for a description of
 non-alive worm, alive worm, and worm segments. Carrots and segments of
 alive worms have a food value that nourishes any worm that eats them.
 
-### Worms {#h3}
+### Worms
 
 Three types of worm are simulated: *Vegetarian*, *Scissor*, and
 *Cannibal*. Worms may be *alive*, *dead*, or *eaten*. Each worm is
@@ -100,14 +86,14 @@ consumes some of the food in the its stomach. Each time an alive worm
 eats, it increases the amount of food in the its stomach. If a
 worm's stomach becomes empty, the worm becomes dead.
 
-## Examination of Design Alternatives {#h4}
+## Examination of Design Alternatives
 
 An inheritance based design is examined and critiqued here followed by a
 design that employs composition instead of inheritance. Then, a design
 aspect that effectively employs inheritance without incurring excessive
 coupling is presented.
 
-### Inheritance Based Design 1 {#h5}
+### Inheritance Based Design 1
 
 There are three types of Worm, Vegetarian, Scissor Head, and Cannibal. A
 natural design![](../media/image003.png) inclination might be to create an
@@ -140,7 +126,7 @@ the *eat()* method as appropriate. By polymorphicly overriding the
 *eat()* method, the subclasses specialize or customize the inherited
 algorithm without need to know any details about the algorithm.
 
-### Critique of Design 1: {#h6}
+### Critique of Design 1: 
 
 **The Worm subclasses either encapsulate too little or too much**: It is
 apparent that substantial portions of the simulation logic may be
@@ -218,7 +204,7 @@ and retain an empty VegetarianWorm class just to differentiate worms
 that exclusively eat carrots from worms that sometimes eat non-carrots,
 but creating empty subclasses seems silly or excessively convoluted.
 
-### Composition Based Design 2 {#h7}
+### Composition Based Design 2
 
 Even in Design 1, we implicitly accept that each Worm instance HAS some
 number of segments. We don't say a worm IS-A collection of worm
@@ -271,7 +257,7 @@ stops. Imagine a class hierarchy:
 Then, what happens when the programmer needs text content that scrolls
 vertically and has tab stops but doesn't scroll horizontally?
 
-### Critique of Design 2: {#h8}
+### Critique of Design 2:
 
 **There remains a "fragile type signature problem"**:
 Critique B) of Design 1 describes the Fragile-Base-Class Problem noting
@@ -315,7 +301,7 @@ base class methods, but Design 2 does not necessarily foreclose the
 possibility of introducing LSP problems. Design 2 merely greatly reduces
 the potential for needing a myriad of subclasses.
 
-### Appropriate Use of Inheritance in Design 3 {#h9}
+### Appropriate Use of Inheritance in Design 3
 
 Base classes are ideally entirely abstract. In other words, if a base
 class is found to be needed, make it a pure-abstract-base-class in the
@@ -366,7 +352,7 @@ Use of object oriented inheritance is most appropriate when all non-leaf
 classes in the inheritance hierarchy are abstract. In other words,
 interface inheritance is preferred over implementation inheritance.
 
-## Conclusion {#h10}
+## Conclusion
 
 Seminal work in object oriented design patterns has produces a
 collection of reusable patterns that describe known good solutions to
