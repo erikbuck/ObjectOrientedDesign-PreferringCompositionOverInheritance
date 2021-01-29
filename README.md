@@ -381,5 +381,3 @@ in this paper and the purpose of all or most software design patterns:
 avoid coupling, it is essential to avoid object oriented inheritance,
 and when inheritance is employed, interface inheritance is strongly
 preferred over implementation inheritance."*
-
-[Implementation](http://html/index.html)
