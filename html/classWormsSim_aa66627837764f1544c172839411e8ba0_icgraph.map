@@ -1,8 +1,0 @@
-<map id="WormsSim::getRandomModX" name="WormsSim::getRandomModX">
-<area shape="rect" id="node2" href="$classWorm.html#a5f002460a2a6509ced236a3512b3950e" title="Call to execute one simulation step of the worm&#39;s life. " alt="" coords="251,5,335,31"/>
-<area shape="rect" id="node4" href="$classWormsSim.html#a8a5f16496242faa2be8012611428cf91" title="Each time this function is called, the simulation restarts from initial conditions with a pseudo rand..." alt="" coords="587,31,762,56"/>
-<area shape="rect" id="node3" href="$classWormsSim.html#a926a79421a420e4da5d8b156ca9602a7" title="If an existing slot in is available and victimSegementNumber is 1 and &lt; the number of segments in vic..." alt="" coords="383,5,539,31"/>
-<area shape="rect" id="node5" href="$classWormsSim.html#ad2b69a4b0f79879b4f18a22e8aa2cf5e" title="Returns the maximum number of columns of squares in a &quot;board&quot;. " alt="" coords="810,31,1018,56"/>
-<area shape="rect" id="node6" href="$classWormsSim.html#aa7ba29a93b86b72f49aa8a147c3c6123" title="Constructs a WormsSim instance encapsulating a board with width columns and height rows of squares..." alt="" coords="1066,31,1224,56"/>
-<area shape="rect" id="node7" href="$classWormsSim.html#aff98fb3bc5288f412ecadbad40713bc7" title="This function creates an instance of WormsSim with the specified board width and height. " alt="" coords="1272,31,1461,56"/>
-</map>

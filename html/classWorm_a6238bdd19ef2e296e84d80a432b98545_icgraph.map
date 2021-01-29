@@ -1,0 +1,4 @@
+<map id="Worm::isHungry" name="Worm::isHungry">
+<area shape="rect" id="node1" title="A Worm is hungry if its stomach foof content value at least 25% less that the worm&#39;s stomach capacity..." alt="" coords="137,5,254,31"/>
+<area shape="rect" id="node2" href="$classWorm.html#a5f002460a2a6509ced236a3512b3950e" title="Call to execute one simulation step of the worm&#39;s life." alt="" coords="5,5,89,31"/>
+</map>

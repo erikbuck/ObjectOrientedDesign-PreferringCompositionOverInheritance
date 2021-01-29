@@ -1,4 +1,5 @@
 <map id="Worm::Worm" name="Worm::Worm">
-<area shape="rect" id="node2" href="$classWorm.html#a2db602e298adc5d12e17e53f0b46575d" title="This function should only be used for pre and post condition assertion checking. " alt="" coords="153,5,378,31"/>
-<area shape="rect" id="node3" href="$classWormsSim.html#a5346ce1e05a7b5b77e6204dc3c8a0ac7" title="This function should only be used for pre and post condition assertion checking. " alt="" coords="170,55,361,80"/>
+<area shape="rect" id="node1" title="Constructs a worm instance with enough segments to store one each character in saying in a different ..." alt="" coords="5,31,105,56"/>
+<area shape="rect" id="node2" href="$classWorm.html#a4a597c0a4b5a1209698e6bfa94971592" title="This function should only be used for pre and post condition assertion checking." alt="" coords="153,5,378,31"/>
+<area shape="rect" id="node3" href="$classWormsSim.html#a5346ce1e05a7b5b77e6204dc3c8a0ac7" title="This function should only be used for pre and post condition assertion checking." alt="" coords="170,55,361,80"/>
 </map>

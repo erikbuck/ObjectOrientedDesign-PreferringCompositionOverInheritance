@@ -1,3 +1,4 @@
 <map id="Worm" name="Worm">
-<area shape="rect" id="node2" href="$classWorm_1_1Info.html" title="Instances of this class encapsulate everything that is different form one kind of Worm to another..." alt="" coords="57,5,179,172"/>
+<area shape="rect" id="node1" title="This class encapsulates a &quot;worm&quot; which lives, eats, moves, and eventually dies." alt="" coords="5,273,230,840"/>
+<area shape="rect" id="node2" href="$classWorm_1_1Info.html" title="Instances of this class encapsulate everything that is different form one kind of Worm to another." alt="" coords="57,5,179,172"/>
 </map>

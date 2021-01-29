@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['abstractwormssimuistrategy',['AbstractWormsSimUIStrategy',['../classAbstractWormsSimUIStrategy.html',1,'']]]
+  ['abstractwormssimuistrategy_71',['AbstractWormsSimUIStrategy',['../classAbstractWormsSimUIStrategy.html',1,'']]]
 ];

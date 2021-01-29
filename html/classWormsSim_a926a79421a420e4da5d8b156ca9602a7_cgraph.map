@@ -1,11 +1,8 @@
 <map id="WormsSim::sliceVictim" name="WormsSim::sliceVictim">
-<area shape="rect" id="node2" href="$classWormsSim.html#a3605455ccc2cc3888b5f3fe96a7a89fe" title="Use this function to find an index where a non&#45;living Worm can be replaced by a new living worm..." alt="" coords="244,101,383,126"/>
-<area shape="rect" id="node3" href="$classWorm.html#a5f002460a2a6509ced236a3512b3950e" title="Call to execute one simulation step of the worm&#39;s life. " alt="" coords="271,150,355,176"/>
-<area shape="rect" id="node9" href="$classWorm.html#a11ce882c6a211c025ef7c4f04ee6b13a" title="Template Method: called when a worm has been sliced. " alt="" coords="210,212,417,250"/>
-<area shape="rect" id="node10" href="$classWorm.html#a37ab25cceafd9420d649a42422130d38" title="Constructs a worm instance with enough segments to store one each character in saying in a different ..." alt="" coords="515,314,614,340"/>
-<area shape="rect" id="node4" href="$classWorm.html#a2db602e298adc5d12e17e53f0b46575d" title="This function should only be used for pre and post condition assertion checking. " alt="" coords="711,297,937,322"/>
-<area shape="rect" id="node5" href="$classWormsSim.html#aa66627837764f1544c172839411e8ba0" title="Utility function to return a pseudo random natural number in the range 0..(x&#45;1). " alt="" coords="465,50,663,76"/>
-<area shape="rect" id="node6" href="$classWormsSim.html#a5346ce1e05a7b5b77e6204dc3c8a0ac7" title="This function should only be used for pre and post condition assertion checking. " alt="" coords="729,230,920,256"/>
-<area shape="rect" id="node7" href="$classWorm.html#ac3c8807fc5a264881fff18911a1a7b95" title="A Worm is hungry if its stomach foof content value at least 25% less that the worm&#39;s stomach capacity..." alt="" coords="506,100,623,125"/>
-<area shape="rect" id="node8" href="$classWorm.html#ad0d55e4c70f84a03d97a192db6efd72a" title="Changes the worm&#39;s status based on the size of the worm and the amount of food in the worm&#39;s stomach..." alt="" coords="465,252,663,290"/>
+<area shape="rect" id="node1" title="If an existing slot in is available and victimSegementNumber is 1 and &lt; the number of segments in vic..." alt="" coords="5,33,162,59"/>
+<area shape="rect" id="node2" href="$classWormsSim.html#a913274048a111b385ae77ee2a5f9025c" title="Use this function to find an index where a non&#45;living Worm can be replaced by a new living worm." alt="" coords="244,5,383,31"/>
+<area shape="rect" id="node3" href="$classWorm.html#a11ce882c6a211c025ef7c4f04ee6b13a" title="Template Method: called when a worm has been sliced." alt="" coords="210,55,417,93"/>
+<area shape="rect" id="node4" href="$classWorm.html#a4a597c0a4b5a1209698e6bfa94971592" title="This function should only be used for pre and post condition assertion checking." alt="" coords="711,35,937,60"/>
+<area shape="rect" id="node5" href="$classWormsSim.html#a5346ce1e05a7b5b77e6204dc3c8a0ac7" title="This function should only be used for pre and post condition assertion checking." alt="" coords="729,88,920,113"/>
+<area shape="rect" id="node6" href="$classWorm.html#ad0d55e4c70f84a03d97a192db6efd72a" title="Changes the worm&#39;s status based on the size of the worm and the amount of food in the worm&#39;s stomach." alt="" coords="465,55,663,93"/>
 </map>

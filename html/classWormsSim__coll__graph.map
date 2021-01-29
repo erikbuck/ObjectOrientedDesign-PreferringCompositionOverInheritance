@@ -1,2 +1,3 @@
 <map id="WormsSim" name="WormsSim">
+<area shape="rect" id="node1" title="WormSim encapsulates the board and zero or more Worm instances." alt="" coords="5,5,256,759"/>
 </map>

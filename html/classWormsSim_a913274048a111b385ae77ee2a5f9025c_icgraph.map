@@ -1,0 +1,4 @@
+<map id="WormsSim::findSlot" name="WormsSim::findSlot">
+<area shape="rect" id="node1" title="Use this function to find an index where a non&#45;living Worm can be replaced by a new living worm." alt="" coords="210,5,348,31"/>
+<area shape="rect" id="node2" href="$classWormsSim.html#a926a79421a420e4da5d8b156ca9602a7" title="If an existing slot in is available and victimSegementNumber is 1 and &lt; the number of segments in vic..." alt="" coords="5,5,162,31"/>
+</map>

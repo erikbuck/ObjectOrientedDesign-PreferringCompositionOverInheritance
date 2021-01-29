@@ -1,2 +1,3 @@
 <map id="WormsSim::square" name="WormsSim::square">
+<area shape="rect" id="node1" title="A &quot;board&quot; is a 2D array of square instances." alt="" coords="5,5,140,105"/>
 </map>

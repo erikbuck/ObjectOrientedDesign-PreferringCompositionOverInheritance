@@ -1,7 +1,0 @@
-<map id="Worm::Worm" name="Worm::Worm">
-<area shape="rect" id="node2" href="$classWormsSim.html#a926a79421a420e4da5d8b156ca9602a7" title="If an existing slot in is available and victimSegementNumber is 1 and &lt; the number of segments in vic..." alt="" coords="153,5,309,31"/>
-<area shape="rect" id="node3" href="$classWormsSim.html#a8a5f16496242faa2be8012611428cf91" title="Each time this function is called, the simulation restarts from initial conditions with a pseudo rand..." alt="" coords="357,5,532,31"/>
-<area shape="rect" id="node4" href="$classWormsSim.html#ad2b69a4b0f79879b4f18a22e8aa2cf5e" title="Returns the maximum number of columns of squares in a &quot;board&quot;. " alt="" coords="580,5,787,31"/>
-<area shape="rect" id="node5" href="$classWormsSim.html#aa7ba29a93b86b72f49aa8a147c3c6123" title="Constructs a WormsSim instance encapsulating a board with width columns and height rows of squares..." alt="" coords="835,5,994,31"/>
-<area shape="rect" id="node6" href="$classWormsSim.html#aff98fb3bc5288f412ecadbad40713bc7" title="This function creates an instance of WormsSim with the specified board width and height. " alt="" coords="1042,5,1231,31"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="WormsSim::runSimulation" name="WormsSim::runSimulation">
-<area shape="rect" id="node2" href="$classWormsSim.html#ad2b69a4b0f79879b4f18a22e8aa2cf5e" title="Returns the maximum number of columns of squares in a &quot;board&quot;. " alt="" coords="229,5,436,31"/>
-<area shape="rect" id="node3" href="$classWormsSim.html#aa7ba29a93b86b72f49aa8a147c3c6123" title="Constructs a WormsSim instance encapsulating a board with width columns and height rows of squares..." alt="" coords="484,5,642,31"/>
-<area shape="rect" id="node4" href="$classWormsSim.html#aff98fb3bc5288f412ecadbad40713bc7" title="This function creates an instance of WormsSim with the specified board width and height. " alt="" coords="690,5,880,31"/>
-</map>

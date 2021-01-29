@@ -1,7 +1,8 @@
 <map id="Worm::live" name="Worm::live">
-<area shape="rect" id="node2" href="$classWorm.html#a2db602e298adc5d12e17e53f0b46575d" title="This function should only be used for pre and post condition assertion checking. " alt="" coords="384,54,609,79"/>
-<area shape="rect" id="node3" href="$classWormsSim.html#aa66627837764f1544c172839411e8ba0" title="Utility function to return a pseudo random natural number in the range 0..(x&#45;1). " alt="" coords="138,36,335,62"/>
-<area shape="rect" id="node4" href="$classWormsSim.html#a5346ce1e05a7b5b77e6204dc3c8a0ac7" title="This function should only be used for pre and post condition assertion checking. " alt="" coords="401,131,592,156"/>
-<area shape="rect" id="node5" href="$classWorm.html#ac3c8807fc5a264881fff18911a1a7b95" title="A Worm is hungry if its stomach foof content value at least 25% less that the worm&#39;s stomach capacity..." alt="" coords="178,148,295,174"/>
-<area shape="rect" id="node6" href="$classWorm.html#ad0d55e4c70f84a03d97a192db6efd72a" title="Changes the worm&#39;s status based on the size of the worm and the amount of food in the worm&#39;s stomach..." alt="" coords="137,86,336,124"/>
+<area shape="rect" id="node1" title="Call to execute one simulation step of the worm&#39;s life." alt="" coords="5,92,89,118"/>
+<area shape="rect" id="node2" href="$classWorm.html#a4a597c0a4b5a1209698e6bfa94971592" title="This function should only be used for pre and post condition assertion checking." alt="" coords="384,54,609,79"/>
+<area shape="rect" id="node3" href="$classWormsSim.html#aa66627837764f1544c172839411e8ba0" title="Utility function to return a pseudo random natural number in the range 0..(x&#45;1)." alt="" coords="138,36,335,62"/>
+<area shape="rect" id="node4" href="$classWormsSim.html#a5346ce1e05a7b5b77e6204dc3c8a0ac7" title="This function should only be used for pre and post condition assertion checking." alt="" coords="401,131,592,156"/>
+<area shape="rect" id="node5" href="$classWorm.html#a6238bdd19ef2e296e84d80a432b98545" title="A Worm is hungry if its stomach foof content value at least 25% less that the worm&#39;s stomach capacity..." alt="" coords="178,148,295,174"/>
+<area shape="rect" id="node6" href="$classWorm.html#ad0d55e4c70f84a03d97a192db6efd72a" title="Changes the worm&#39;s status based on the size of the worm and the amount of food in the worm&#39;s stomach." alt="" coords="137,86,336,124"/>
 </map>

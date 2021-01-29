@@ -1,3 +1,4 @@
 <map id="CursesWormsSimUIStrategy::processUserInput" name="CursesWormsSimUIStrategy::processUserInput">
-<area shape="rect" id="node2" href="$classCursesWormsSimUIStrategy.html#a8d3761fa1e86844e84dcbad324e5b32e" title="Perform user interface specific logic in response to user input of the character, c..." alt="" coords="245,5,436,44"/>
+<area shape="rect" id="node1" title="Override of AbstractWormsSimUIStrategy Template Method: Call his function to perform user interface s..." alt="" coords="5,5,197,44"/>
+<area shape="rect" id="node2" href="$classCursesWormsSimUIStrategy.html#a8d3761fa1e86844e84dcbad324e5b32e" title="Perform user interface specific logic in response to user input of the character, c." alt="" coords="245,5,436,44"/>
 </map>

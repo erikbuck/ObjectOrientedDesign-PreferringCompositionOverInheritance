@@ -1,0 +1,9 @@
+<map id="Worm::areAllSegmentsContiguous" name="Worm::areAllSegmentsContiguous">
+<area shape="rect" id="node1" title="This function should only be used for pre and post condition assertion checking." alt="" coords="711,88,937,113"/>
+<area shape="rect" id="node2" href="$classWorm.html#a5f002460a2a6509ced236a3512b3950e" title="Call to execute one simulation step of the worm&#39;s life." alt="" coords="271,60,355,85"/>
+<area shape="rect" id="node3" href="$classWorm.html#ac67cf9ee5c70ca84d67b2de01b5cff8a" title="Template Method: called when worm has been eaten As a side effect, this function decrements the count..." alt="" coords="494,32,634,57"/>
+<area shape="rect" id="node4" href="$classWorm.html#a11ce882c6a211c025ef7c4f04ee6b13a" title="Template Method: called when a worm has been sliced." alt="" coords="210,109,417,148"/>
+<area shape="rect" id="node6" href="$classWorm.html#ad0d55e4c70f84a03d97a192db6efd72a" title="Changes the worm&#39;s status based on the size of the worm and the amount of food in the worm&#39;s stomach." alt="" coords="465,81,663,120"/>
+<area shape="rect" id="node7" href="$classWorm.html#a37ab25cceafd9420d649a42422130d38" title="Constructs a worm instance with enough segments to store one each character in saying in a different ..." alt="" coords="515,196,614,221"/>
+<area shape="rect" id="node5" href="$classWormsSim.html#a926a79421a420e4da5d8b156ca9602a7" title="If an existing slot in is available and victimSegementNumber is 1 and &lt; the number of segments in vic..." alt="" coords="5,116,162,141"/>
+</map>

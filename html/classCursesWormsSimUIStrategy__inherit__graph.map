@@ -1,3 +1,4 @@
 <map id="CursesWormsSimUIStrategy" name="CursesWormsSimUIStrategy">
+<area shape="rect" id="node1" title="Instances of CursesWormsSimUIStrategy provide NCurses based graphical display and user interaction of..." alt="" coords="12,167,224,520"/>
 <area shape="rect" id="node2" href="$classAbstractWormsSimUIStrategy.html" title="The abstract AbstractWormsSimUIStrategy class (similar to a Java or C# Interface or an Objective&#45;C Pr..." alt="" coords="5,5,231,119"/>
 </map>

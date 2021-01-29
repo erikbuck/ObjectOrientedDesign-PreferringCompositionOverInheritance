@@ -1,9 +1,6 @@
 <map id="Worm::updateStatusBasedOnStomach" name="Worm::updateStatusBasedOnStomach">
-<area shape="rect" id="node2" href="$classWorm.html#a5f002460a2a6509ced236a3512b3950e" title="Call to execute one simulation step of the worm&#39;s life. " alt="" coords="313,5,397,31"/>
-<area shape="rect" id="node8" href="$classWorm.html#a11ce882c6a211c025ef7c4f04ee6b13a" title="Template Method: called when a worm has been sliced. " alt="" coords="252,55,459,93"/>
-<area shape="rect" id="node3" href="$classWormsSim.html#a926a79421a420e4da5d8b156ca9602a7" title="If an existing slot in is available and victimSegementNumber is 1 and &lt; the number of segments in vic..." alt="" coords="507,33,663,59"/>
-<area shape="rect" id="node4" href="$classWormsSim.html#a8a5f16496242faa2be8012611428cf91" title="Each time this function is called, the simulation restarts from initial conditions with a pseudo rand..." alt="" coords="711,33,887,59"/>
-<area shape="rect" id="node5" href="$classWormsSim.html#ad2b69a4b0f79879b4f18a22e8aa2cf5e" title="Returns the maximum number of columns of squares in a &quot;board&quot;. " alt="" coords="935,33,1142,59"/>
-<area shape="rect" id="node6" href="$classWormsSim.html#aa7ba29a93b86b72f49aa8a147c3c6123" title="Constructs a WormsSim instance encapsulating a board with width columns and height rows of squares..." alt="" coords="1190,33,1348,59"/>
-<area shape="rect" id="node7" href="$classWormsSim.html#aff98fb3bc5288f412ecadbad40713bc7" title="This function creates an instance of WormsSim with the specified board width and height. " alt="" coords="1396,33,1586,59"/>
+<area shape="rect" id="node1" title="Changes the worm&#39;s status based on the size of the worm and the amount of food in the worm&#39;s stomach." alt="" coords="465,27,663,65"/>
+<area shape="rect" id="node2" href="$classWorm.html#a5f002460a2a6509ced236a3512b3950e" title="Call to execute one simulation step of the worm&#39;s life." alt="" coords="271,5,355,31"/>
+<area shape="rect" id="node3" href="$classWorm.html#a11ce882c6a211c025ef7c4f04ee6b13a" title="Template Method: called when a worm has been sliced." alt="" coords="210,55,417,93"/>
+<area shape="rect" id="node4" href="$classWormsSim.html#a926a79421a420e4da5d8b156ca9602a7" title="If an existing slot in is available and victimSegementNumber is 1 and &lt; the number of segments in vic..." alt="" coords="5,61,162,87"/>
 </map>
