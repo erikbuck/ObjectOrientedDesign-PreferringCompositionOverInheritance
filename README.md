@@ -1,4 +1,4 @@
-# Object Oriented Design - Preferring Composition Over Inheritance {#mainpage}
+# Object Oriented Design - Preferring Composition Over Inheritance
 
 ## Abstract
 
