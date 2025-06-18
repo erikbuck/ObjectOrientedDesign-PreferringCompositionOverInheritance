@@ -37,7 +37,7 @@ of composition in preference to object oriented inheritance.
 
 The Worms program simulates worms living their lives in a 2D plane
 called a board. See Figure 1: Examples of Worms On a Game
-Board. ![](../media/image001.png)
+Board. ![](media/image001.png)
 
 ### Board
 
