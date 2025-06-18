@@ -54,7 +54,7 @@ alive worms have a food value that nourishes any worm that eats them.
 Three types of worm are simulated: *Vegetarian*, *Scissor*, and
 *Cannibal*. Worms may be *alive*, *dead*, or *eaten*. Each worm is
 composed of one *head segment* and zero or more *non-head segments*.
-Each alive worm[]s head may move in pseudo random directions
+Each alive worm's head may move in pseudo random directions
 by changing its position form one position in the board to an adjacent
 position within the board. If a worm segment moves off an edge of the
 board, the worm segment wraps around to the opposite side
@@ -122,7 +122,7 @@ In this case, all worms eat under certain circumstances, but how and
 what they eat depends on the type of worm. The algorithm to evaluate
 when it is situationally appropriate to eat can be encapsulated in the
 Worm base class which, as part of the algorithm implementation, calls
-the *eat()* method as appropriate. By polymorphicly overriding the
+the *eat()* method when appropriate. By polymorphicly overriding the
 *eat()* method, the subclasses specialize or customize the inherited
 algorithm without need to know any details about the algorithm.
 
@@ -148,7 +148,7 @@ problem. At the other extreme, if nearly every aspect of Worm behavior
 is specialized by concrete subclasses, what remains in the base class to
 be reused? At the extreme, every method of the base class is overridden
 in a subclass. In that situation, why not use a Java style *interface*
-or C++ style *pure-abstract class* and not have a Worm base class or at
+or C++ style *pure-virtual class* and not have a Worm base class or at
 least not implement any logic in the Worm base class?
 
 **Concrete subclasses of Worm are coupled to the base class**: In Design
@@ -163,7 +163,7 @@ the very definition of coupling. This is the famous Fragile-Base-Class
 Problem that every Object Oriented Language suffers to some degree.
 [[https://en.wikipedia.org/wiki/Fragile_base_class]{.ul}](https://en.wikipedia.org/wiki/Fragile_base_class)
 To elaborate, what if the maintainer of the Worm class is unaware of
-concrete subclasses implemented my other teams? How are the other teams
+concrete subclasses implemented by other teams? How are the other teams
 notified to make required changes prior to rebuilding with the
 supposedly reusable Worm simulation support library? Maybe other
 projects decide to forego updating to the latest version of the Worm
@@ -178,7 +178,7 @@ testing.
 reality/standard understanding of terms**: All worms eat carrots under
 some circumstances, but VegitarianWorms exclusively eat carrots. Where
 should carrot eating behavior be implemented? Carrot eating could
-implemented in the Worm base class so that all subclasses may invoke the
+be implemented in the Worm base class so that all subclasses may invoke the
 base class behavior when it is appropriate to eat carrots. In that
 design, what exactly makes the VegetarianWorm class different from the
 Worm base class? It may be possible to eliminate the VegetarianWorm
@@ -274,7 +274,7 @@ the various *eat()* functions may be declared and implemented in
 isolation (as the only content of respective implementation files) so
 that only recompilation of the specific files containing the functions
 is required. By restricting recompilation to fewer files and certainly
-much less code, the regression test burden imposed by the change *eat()*
+much less code, the regression test burden imposed by the changed *eat()*
 function pointer signature may be greatly reduced. Nevertheless, there
 remains an form of coupling between the *eat()* function pointer
 signature and the various implementations of *eat()* functions. The
@@ -282,13 +282,17 @@ problem is a form of "fragile type signature problem" instead of being a
 Fragile-Base-Class problem. Programming languages that infer type from
 usage avoid even the "fragile type signature problem". A
 common way to avoid the fragility is to use the Command Pattern,
-"Functors", or Labdas. Each of these provide a way to encapsulate
+"Functors", or Lambdas. Each of these provide a way to encapsulate
 arbitrary \[immutable\] state in an object or language feature the works
-like a function. Instead of storing a function pointer, store a command,
-functor, or lambda. These approaches avoid the need to change the
+like a function. Instead of storing a function pointer, store a Command,
+Functor, or Lambda. These approaches avoid the need to change the
 function signature in most cases because any unanticipated information
-needs that may be discovered may be encapsulated the individual
-commands, functors, or lamas.
+needs that may be discovered may be encapsulated in the individual
+Commands, Functors, or Lambdas. In other words, the signature of the Command, 
+Functor, or Lambda doesn't need to chnage even when a new implementation
+requires information that was not required by previous implementations 
+because arbitrary information may be encapsulated within the Command, Functor, 
+or Lambda instead of being passed as arguments to a function.
 
 **There may still be a need for an empty base class**: There is no
 longer an issue with LSP in Design 2 because substitution applies only
@@ -304,7 +308,7 @@ the potential for needing a myriad of subclasses.
 ### Appropriate Use of Inheritance in Design 3
 
 Base classes are ideally entirely abstract. In other words, if a base
-class is found to be needed, make it a pure-abstract-base-class in the
+class is found to be needed, make it a pure-virtual-base-class in the
 C++ style or an Interface in the Java style. Consider the *Strategy
 Design Pattern*
 [[https://en.wikipedia.org/wiki/Strategy_pattern]](https://en.wikipedia.org/wiki/Strategy_pattern)
@@ -321,7 +325,7 @@ Worms simulation state to users and accepting user input may exist. For
 example, there may be a terminal (Curses) based textual display or a 2D
 vector graphics display or a 3D display. Similarly, user input may come
 from a keyboard or over a network connection or from a data file or from
-script.
+a script.
 
 Observe that in this design, the simulation HAS-A strategy for
 interacting with the user. In essence, the strategy is parameterized in
