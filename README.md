@@ -37,7 +37,7 @@ of composition in preference to object oriented inheritance.
 
 The Worms program simulates worms living their lives in a 2D plane
 called a board. See Figure 1: Examples of Worms On a Game
-Board.![](../media/image001.png)
+Board. ![](../media/image001.png)
 
 ### Board
 
@@ -96,7 +96,7 @@ coupling is presented.
 ### Inheritance Based Design 1
 
 There are three types of Worm, Vegetarian, Scissor Head, and Cannibal. A
-natural design![](../media/image003.png) inclination might be to create an
+natural design ![](../media/image003.png) inclination might be to create an
 abstract Worm class that has three concrete subclasses, VegetarianWorm,
 ScissorHeadWorm, and CannibalWorm. The abstract Worm class presumably
 declares an interface and possibly some behaviors that all types of
