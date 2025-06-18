@@ -117,7 +117,7 @@ Worm implement the *eat()* method in a way appropriate for the type of
 worm represented by the concrete class. Note: A *template method* is a
 base class method intended/required to be overridden in subclasses to
 specialize an algorithm implemented primarily in the base class. Ref:
-[[https://en.wikipedia.org/wiki/Template_method_pattern]{.ul}](https://en.wikipedia.org/wiki/Template_method_pattern)
+[Template_method_pattern](https://en.wikipedia.org/wiki/Template_method_pattern)
 In this case, all worms eat under certain circumstances, but how and
 what they eat depends on the type of worm. The algorithm to evaluate
 when it is situationally appropriate to eat can be encapsulated in the
@@ -161,7 +161,7 @@ Generally, every subclass of Worm must then be modified to provide new
 cannot be changed without requiring changes to other classes, that is
 the very definition of coupling. This is the famous Fragile-Base-Class
 Problem that every Object Oriented Language suffers to some degree.
-[[https://en.wikipedia.org/wiki/Fragile_base_class]{.ul}](https://en.wikipedia.org/wiki/Fragile_base_class)
+[Fragile base class](https://en.wikipedia.org/wiki/Fragile_base_class)
 To elaborate, what if the maintainer of the Worm class is unaware of
 concrete subclasses implemented by other teams? How are the other teams
 notified to make required changes prior to rebuilding with the
@@ -182,7 +182,7 @@ be implemented in the Worm base class so that all subclasses may invoke the
 base class behavior when it is appropriate to eat carrots. In that
 design, what exactly makes the VegetarianWorm class different from the
 Worm base class? It may be possible to eliminate the VegetarianWorm
-class or more likely![](../media/image004.png) replace the Worm base class with the
+class or more likely ![](../media/image004.png) replace the Worm base class with the
 VegetarianWorm class so that ScissorHeadWorm and CannibalWorm are
 subclasses of VegitarianWorm. But does it make sense to say that a
 CannibalWorm IS-A VegetarianWorm? This design likely violates the Liskov
@@ -311,7 +311,7 @@ Base classes are ideally entirely abstract. In other words, if a base
 class is found to be needed, make it a pure-virtual-base-class in the
 C++ style or an Interface in the Java style. Consider the *Strategy
 Design Pattern*
-[[https://en.wikipedia.org/wiki/Strategy_pattern]](https://en.wikipedia.org/wiki/Strategy_pattern)
+[Strategy pattern](https://en.wikipedia.org/wiki/Strategy_pattern)
 and how it may apply to the Worms simulation.
 
 The ***abstract*** AbstractWormsSimUIStrategy class (similar to a Java
@@ -319,7 +319,7 @@ or C\# *Interface* or an Objective-C *Protocol*) declares the methods
 needed by any class that displays Worms simulation state to a user
 and/or accepts user input. AbstractWormsSimUIStrategy collaborates as
 part of an
-implementation![](../media/image005.png) of the *Strategy Design Pattern.* The
+implementation ![](../media/image005.png) of the *Strategy Design Pattern.* The
 assumption is that many different concrete strategies for displaying
 Worms simulation state to users and accepting user input may exist. For
 example, there may be a terminal (Curses) based textual display or a 2D
